@@ -1,0 +1,182 @@
+/* General Body Styles */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f6f9;
+    color: #333333;
+    text-align: center;
+}
+
+/* Header and Navigation */
+header {
+    background-color: #0047ab;
+    color: #ffffff;
+    padding: 20px 0 15px 0;
+}
+
+header h1 {
+    margin: 0 0 10px 0;
+    font-size: 28px;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: 600;
+    padding: 5px 10px;
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #003380;
+    border-radius: 4px;
+}
+
+/* Section Styling */
+.section {
+    padding: 40px 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.section h2 {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+/* Profile Image */
+.profile-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+    margin-bottom: 15px;
+}
+
+.about-text {
+    font-size: 14px;
+    color: #555555;
+}
+
+/* Skills Table */
+.skills-table {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: #ffffff;
+}
+
+.skills-table th {
+    background-color: #0047ab;
+    color: #ffffff;
+    padding: 10px;
+    border: 1px solid #0047ab;
+}
+
+.skills-table td {
+    padding: 10px;
+    border: 1px solid #0047ab;
+    color: #333;
+}
+
+.skills-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Project Cards */
+.project-card {
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 15px auto;
+    max-width: 600px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.project-card h3 {
+    margin-top: 0;
+}
+
+/* Contact Form */
+.contact-form {
+    background-color: #ffffff;
+    border: 1px solid #0047ab;
+    padding: 20px;
+    max-width: 500px;
+    margin: 0 auto;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.form-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.form-group label {
+    width: 25%;
+    text-align: left;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 75%;
+    padding: 8px;
+    border: 1px solid #777777;
+    border-radius: 2px;
+    font-family: inherit;
+}
+
+.btn-send {
+    background-color: #0047ab;
+    color: #ffffff;
+    border: none;
+    padding: 8px 30px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+.btn-send:hover {
+    background-color: #003380;
+}
+
+/* Visual Separators */
+.separator {
+    border: none;
+    border-top: 1px solid #cccccc;
+    margin: 0;
+}
+
+/* Position Fixed: Back to Top */
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #0047ab;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    font-size: 13px;
+    font-weight: 600;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+}
+
+.back-to-top:hover {
+    background-color: #003380;
+}

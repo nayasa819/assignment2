@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nayasa's Portfolio</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="top">
+
+    <!-- Header & Navigation -->
+    <header>
+        <h1>My Portfolio</h1>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <h2>About Me</h2>
+        <div class="profile-container">
+            <img src="images/profile.png" alt="Nayasa Profile Picture" class="profile-img">
+        </div>
+        <p class="about-text">Hello! My name is Nayasa. I am learning web development and this is my first portfolio website.</p>
+    </section>
+
+    <hr class="separator">
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <h2>My Skills</h2>
+        <table class="skills-table">
+            <thead>
+                <tr>
+                    <th>Skill</th>
+                    <th>Level</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>HTML</td>
+                    <td>Beginner</td>
+                </tr>
+                <tr>
+                    <td>CSS</td>
+                    <td>Beginner</td>
+                </tr>
+                <tr>
+                    <td>JavaScript</td>
+                    <td>Learning</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <hr class="separator">
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <h2>My Projects</h2>
+        <div class="project-card">
+            <h3>Project 1</h3>
+            <p>A simple HTML & CSS webpage.</p>
+        </div>
+        <div class="project-card">
+            <h3>Project 2</h3>
+            <p>Another awesome mini project.</p>
+        </div>
+    </section>
+
+    <hr class="separator">
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <h2>Contact Me</h2>
+        <form class="contact-form">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="3" placeholder="Write your message" required></textarea>
+            </div>
+            <button type="submit" class="btn-send">Send</button>
+        </form>
+    </section>
+
+    <!-- Back to Top Button -->
+    <a href="#top" class="back-to-top">↑ Back to Top</a>
+
+</body>
+</html>
